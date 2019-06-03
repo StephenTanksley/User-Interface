@@ -129,6 +129,15 @@ header {
 }
 */
 
+.content-container {
+	margin: 5px;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: none;
+	border-right: none;
+}
+
 .same-line-top {
 	margin: auto;
 	width: 49%;
