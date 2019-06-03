@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
+body {
+	width: auto;
+	margin: 20px;
+}
+
+.tagline {
+	height: auto;
+	font-size: 55px;
+	width: 50%;
+}
+.nav {
+	margin: 20px;
+	padding: 15px;
+	content: 10px;
+	color: grey;
+	word-spacing: 2em;
+}
+
+.left-side {
+	width: 50%;
+	display: inline-block;
+}
+
+.snapshot {
+	display: inline-block;
+	height: auto;
+}
+
+.logo {
+	display: inline-block;
+	height: 25px;
+	width: auto;
+	margin: 20px;
+	vertical-align: center;
+}
+
+.button {
+	margin: 10px;
+	font-family: roboto;
+	font-size: 12px;
+}
+
+header {
+	display: inline-block;
+}
+
+/*
+.top-content {
+	display: inline-block;
+	border: solid 5px;
+}
+
+.bottom-content {
+	display: inline-block;
+	margin: auto;
+	width: 32%;
+}
+*/
+
+.content-container {
+	margin: 5px;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: none;
+	border-right: none;
+}
+
+.same-line-top {
+	margin: auto;
+	width: 49%;
+	height: 100px;
+	display: inline-block;
+	/*border: solid 5px;*/
+}
+
+.middle-img {
+	align-content: center;
+	width: 100%;
+}
+
+.content-display {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+}
+
+.contact {
+	margin-top: 10px;
+}
+
+.same-line-bottom {
+	margin: 10px;
+	width: 30%;
+	height: 100px;
+	display: inline-block;
+}
+
+footer {
+	text-align: center;
+	margin: 10px;
+}
