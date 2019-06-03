@@ -69,34 +69,33 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-.tagline {
-	border: 5px solid red;
-	font-size: 55px;
-	width: 50%;
-}
 
 body {
 	width: auto;
 	margin: 20px;
 }
 
+.tagline {
+	height: auto;
+	font-size: 55px;
+	width: 50%;
+}
 .nav {
 	margin: 20px;
 	padding: 15px;
 	content: 10px;
 	color: grey;
-	border: solid blue 5px;
+	word-spacing: 2em;
 }
 
 .left-side {
-	border: green solid 5px;
+	width: 50%;
 	display: inline-block;
 }
 
 .snapshot {
 	display: inline-block;
-	border: solid black 5px;
-
+	height: auto;
 }
 
 .logo {
@@ -117,12 +116,13 @@ header {
 	display: inline-block;
 }
 
+/*
 .top-content {
 	display: inline-block;
 	border: solid 5px;
 }
 
-/*.bottom-content {
+.bottom-content {
 	display: inline-block;
 	margin: auto;
 	width: 32%;
@@ -152,16 +152,17 @@ header {
 }
 
 .contact {
-	margin: 5px;
+	margin-top: 10px;
 }
 
 .same-line-bottom {
-	margin: auto;
-	width: 32%;
+	margin: 10px;
+	width: 30%;
 	height: 100px;
 	display: inline-block;
 }
 
 footer {
 	text-align: center;
+	margin: 10px;
 }
