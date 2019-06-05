@@ -70,6 +70,9 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+.services-header-img {
+	width: 100%;
+}
 
 body {
 	width: auto;
@@ -106,7 +109,7 @@ button {
 .content-boxes {
 	border: 1px solid black;
 	height: auto;
-	width: 250px;
+	width: auto;
 	padding: 10px;
 	display: flex;
 	flex-flow: column;
@@ -161,6 +164,7 @@ header {
 	margin: auto;
 	width: auto;
 	display: flex;
+	justify-content: space-between;
 
 }
 
@@ -177,7 +181,7 @@ header {
 	width: 100%;
 	margin: 5px;
 }
-
+/*
 .content-display {
 	border-style: solid;
 	border-color: black;
@@ -186,20 +190,12 @@ header {
 	border-right: none;
 	padding: 10px;
 }
-
+*/
 .contact {
 	margin: 5px;
 	padding: 10px;
 	border-left: none;
 	border-right: none;
-}
-
-.same-line-bottom {
-	margin: 10px;
-	width: 30%;
-	height: 100px;
-	display: inline-block;
-
 }
 
 footer {
